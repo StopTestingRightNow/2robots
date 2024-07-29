@@ -1,0 +1,12 @@
+# Инициализируем режим получения команд
+string sender_id
+string auth_info  # информация для авторизации команд
+---
+# Определение результата (result)
+string sender_id
+uint8 final_exit_code # код результата выполнения последовательности
+---
+# Определение обратной связи (feedback)
+string sender_id
+string execution_summary # какая команда выполнилась
+uint8 processing_exit_code # код результата обработки команды

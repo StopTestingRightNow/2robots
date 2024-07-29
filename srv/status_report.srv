@@ -1,0 +1,4 @@
+string sender_id
+string auth_info  # информация для авторизации запроса состояния
+---
+string report #отчёт о состоянии

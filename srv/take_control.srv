@@ -1,0 +1,4 @@
+string sender_id
+string auth_info  # информация для авторизации захвата контроля
+---
+uint8 exit_code #код результата
